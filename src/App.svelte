@@ -1,5 +1,10 @@
 <script>
 	export let name;
+	let age = 33;
+
+	const changeAge = () => {
+		age += 1;
+	}
 </script>
 
 <style>
@@ -8,4 +13,9 @@
 	}
 </style>
 
-<h1>Hello {name}!</h1>
+<h1>Hola {name}!, my age is {age}</h1>
+<button
+	on:click="{changeAge}"
+>
+	Change age
+</button>
