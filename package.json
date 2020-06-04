@@ -10,6 +10,7 @@
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^4.0.4",
     "sirv-cli": "^0.4.0",
+    "lit-element": "^2.3.1",
     "svelte": "^3.0.0"
   },
   "scripts": {
@@ -18,5 +19,10 @@
     "dev": "run-p start:dev autobuild",
     "start": "sirv public",
     "start:dev": "sirv public --dev"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.7",
+    "svelte-preprocess": "^3.7.4"
   }
 }
