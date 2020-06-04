@@ -37,14 +37,18 @@ const plugins = [
 export default [{
   input: 'src/components/Buttons.svelte',
   output: {
-    file: 'public/buttons.js',
+		minify: true,
+		production: true,
+    file: 'public/buttons.min.js',
     format: 'iife'
 	},
 	plugins
 },{
 	input: 'src/components/Calculator.svelte',
   output: {
-    file: 'public/calculator.js',
+		minify: true,
+		production: true,
+    file: 'public/calculator.min.js',
     format: 'iife'
 	},
 	plugins
