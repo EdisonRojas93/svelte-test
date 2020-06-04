@@ -52,4 +52,13 @@ export default [{
     format: 'iife'
 	},
 	plugins
+},{
+	input: 'src/components/InputField.js',
+  output: {
+		minify: true,
+		production: true,
+		file: 'public/InputField.js',
+    format: 'iife'
+	},
+	plugins
 }];

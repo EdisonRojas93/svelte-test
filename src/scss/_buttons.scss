@@ -1,4 +1,9 @@
 button {
-  border: thin solid red;
+  border: 2px solid var(--border-aliatu);
+  border-top-left-radius: var(--border-radius-left);
   cursor: pointer;
+}
+
+img {
+  border: thin solid red;
 }
