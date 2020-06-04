@@ -39,7 +39,7 @@ export default [{
   output: {
 		minify: true,
 		production: true,
-    file: 'public/buttons.min.js',
+    file: 'public/Buttons.js',
     format: 'iife'
 	},
 	plugins
@@ -48,7 +48,7 @@ export default [{
   output: {
 		minify: true,
 		production: true,
-    file: 'public/calculator.min.js',
+    file: 'public/Calculator.js',
     format: 'iife'
 	},
 	plugins
